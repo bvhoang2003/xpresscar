@@ -68,3 +68,5 @@ $('#the-basics .typeahead').typeahead({
 
 
 <script src="//cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find,MutationObserver"></script>
+
+curl https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.2.5/polyfill.min.js
