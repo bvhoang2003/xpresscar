@@ -1,0 +1,13 @@
+
+							<div class="categoryList">
+								<div class="dropdown">
+								  <button class="btn btn-primary dropdown-toggle infoLabel14 full-width align-left" type="button" data-toggle="dropdown">
+								  	{{code}}
+								  <span class="caret"></span></button>
+								  <ul class="dropdown-menu font16">
+								    <li ng-repeat="cat in categoryList" ng-click="selectCategory($index)">
+								    	{{cat}}
+								    </li>
+								  </ul>
+								</div>
+							</div>
