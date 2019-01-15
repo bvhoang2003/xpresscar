@@ -12,6 +12,9 @@
 	</div>
 </div>
 
+
+
+
 $scope.substringMatcher = function(strs) {
   return function findMatches(q, cb) {
     var matches, substringRegex;
@@ -62,3 +65,6 @@ $('#the-basics .typeahead').typeahead({
   <input class="typeahead" type="text" placeholder="States of USA">
 </div>
 
+
+
+<script src="//cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find,MutationObserver"></script>
